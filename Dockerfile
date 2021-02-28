@@ -6,5 +6,6 @@ RUN apt-get update && apt-get upgrade -qy && \
 		texlive-latex-base \
 		texlive-fonts-recommended \
 		texlive-fonts-extra \
-		texlive-latex-extra
+		texlive-latex-extra \
+		texlive-bibtex-extra
 
