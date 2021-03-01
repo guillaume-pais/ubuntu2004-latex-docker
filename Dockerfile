@@ -8,5 +8,6 @@ RUN apt-get update && apt-get upgrade -qy && \
 		texlive-fonts-extra \
 		texlive-latex-extra \
 		texlive-bibtex-extra \
-		texlive-luatex
+		texlive-luatex \
+		texlive-xetex
 
