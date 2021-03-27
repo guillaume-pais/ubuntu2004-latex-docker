@@ -11,4 +11,5 @@ RUN apt-get update && apt-get upgrade -qy && \
 		texlive-bibtex-extra \
 		texlive-luatex \
 		texlive-xetex
+RUN apt-get clean -qy
 
