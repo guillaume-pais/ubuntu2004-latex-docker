@@ -10,6 +10,7 @@ RUN apt-get update && apt-get upgrade -qy && \
 		texlive-latex-extra \
 		texlive-bibtex-extra \
 		texlive-luatex \
-		texlive-xetex
+		texlive-xetex \
+		texlive-lang-french
 RUN apt-get clean -qy
 
