@@ -13,4 +13,5 @@ RUN apt-get update && apt-get upgrade -qy && \
 		texlive-xetex \
 		texlive-lang-french \
 		texlive-lang-german && \
-	apt-get clean -qy
+	apt-get clean -qy && \
+    rm -rf /var/lib/apt/lists/*
